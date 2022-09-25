@@ -1,6 +1,8 @@
 {
   "transparent": "transparent",
   "inherit": "inherit",
+  "black": "black",
+  "white": "white",
   "amber": {
     "50": "#FFF8E1",
     "100": "#FFECB3",
