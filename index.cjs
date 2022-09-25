@@ -1,4 +1,4 @@
-const colors = require("./colors/index.js");
+const colors = require("./colors/index.cjs");
 module.exports = {
   colors,
   extend: {

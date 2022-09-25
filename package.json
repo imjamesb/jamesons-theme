@@ -1,8 +1,8 @@
 {
   "name": "jamesons-theme",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "",
-  "main": "index.js",
+  "main": "index.cjs",
   "module": "./index.mjs",
   "type": "module",
   "scripts": {},
