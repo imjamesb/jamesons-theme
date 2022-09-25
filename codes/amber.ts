@@ -1,0 +1,14 @@
+export const amber50 = "#FFF8E1";
+export const amber100 = "#FFECB3";
+export const amber200 = "#FFE082";
+export const amber300 = "#FFD54F";
+export const amber400 = "#FFCA28";
+export const amber500 = "#FFC107";
+export const amber600 = "#FFB300";
+export const amber700 = "#FFA000";
+export const amber800 = "#FF8F00";
+export const amber900 = "#FF6F00";
+export const amberA100 = "#FFE57F";
+export const amberA200 = "#FFD740";
+export const amberA400 = "#FFC400";
+export const amberA700 = "#FFAB00";

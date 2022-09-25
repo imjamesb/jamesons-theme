@@ -1,0 +1,14 @@
+export const purple50 = "#F3E5F5";
+export const purple100 = "#E1BEE7";
+export const purple200 = "#CE93D8";
+export const purple300 = "#BA68C8";
+export const purple400 = "#AB47BC";
+export const purple500 = "#9C27B0";
+export const purple600 = "#8E24AA";
+export const purple700 = "#7B1FA2";
+export const purple800 = "#6A1B9A";
+export const purple900 = "#4A148C";
+export const purpleA100 = "#EA80FC";
+export const purpleA200 = "#E040FB";
+export const purpleA400 = "#D500F9";
+export const purpleA700 = "#AA00FF";

@@ -1,0 +1,14 @@
+export const cyan50 = "#E0F7FA";
+export const cyan100 = "#B2EBF2";
+export const cyan200 = "#80DEEA";
+export const cyan300 = "#4DD0E1";
+export const cyan400 = "#26C6DA";
+export const cyan500 = "#00BCD4";
+export const cyan600 = "#00ACC1";
+export const cyan700 = "#0097A7";
+export const cyan800 = "#00838F";
+export const cyan900 = "#006064";
+export const cyanA100 = "#84FFFF";
+export const cyanA200 = "#18FFFF";
+export const cyanA400 = "#00E5FF";
+export const cyanA700 = "#00B8D4";

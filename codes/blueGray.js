@@ -1,0 +1,10 @@
+export const blueGray50 = "#ECEFF1";
+export const blueGray100 = "#CFD8DC";
+export const blueGray200 = "#B0BEC5";
+export const blueGray300 = "#90A4AE";
+export const blueGray400 = "#78909C";
+export const blueGray500 = "#607D8B";
+export const blueGray600 = "#546E7A";
+export const blueGray700 = "#455A64";
+export const blueGray800 = "#37474F";
+export const blueGray900 = "#263238";

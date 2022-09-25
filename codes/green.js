@@ -1,0 +1,14 @@
+export const green50 = "#E8F5E9";
+export const green100 = "#C8E6C9";
+export const green200 = "#A5D6A7";
+export const green300 = "#81C784";
+export const green400 = "#66BB6A";
+export const green500 = "#4CAF50";
+export const green600 = "#43A047";
+export const green700 = "#388E3C";
+export const green800 = "#2E7D32";
+export const green900 = "#1B5E20";
+export const greenA100 = "#B9F6CA";
+export const greenA200 = "#69F0AE";
+export const greenA400 = "#00E676";
+export const greenA700 = "#00C853";

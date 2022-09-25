@@ -1,0 +1,14 @@
+export const red100 = "#FFCDD2";
+export const red50 = "#FFEBEE";
+export const red200 = "#EF9A9A";
+export const red300 = "#E57373";
+export const red400 = "#EF5350";
+export const red500 = "#F44336";
+export const red600 = "#E53935";
+export const red700 = "#D32F2F";
+export const red800 = "#C62828";
+export const red900 = "#B71C1C";
+export const redA100 = "#FF8A80";
+export const redA200 = "#FF5252";
+export const redA400 = "#FF1744";
+export const redA700 = "#D50000";

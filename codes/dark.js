@@ -1,0 +1,10 @@
+export const dark50 = "#515151";
+export const dark100 = "#484848";
+export const dark200 = "#3F3F3F";
+export const dark300 = "#363636";
+export const dark400 = "#2D2D2D";
+export const dark500 = "#242424";
+export const dark600 = "#1B1B1B";
+export const dark700 = "#121212";
+export const dark800 = "#090909";
+export const dark900 = "#000000";
