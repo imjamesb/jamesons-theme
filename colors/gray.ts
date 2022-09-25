@@ -1,15 +1,23 @@
-// Imports
-import * as color from "../codes/gray.ts";
 
+const _50 = "#FAFAFA";
+const _100 = "#F5F5F5";
+const _200 = "#EEEEEE";
+const _300 = "#E0E0E0";
+const _400 = "#BDBDBD";
+const _500 = "#9E9E9E";
+const _600 = "#757575";
+const _700 = "#616161";
+const _800 = "#424242";
+const _900 = "#212121";
 export default {
-  50: color.gray50,
-  100: color.gray100,
-  200: color.gray200,
-  300: color.gray300,
-  400: color.gray400,
-  500: color.gray500,
-  600: color.gray600,
-  700: color.gray700,
-  800: color.gray800,
-  900: color.gray900,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+};

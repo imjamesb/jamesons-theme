@@ -1,15 +1,23 @@
-// Imports
-import * as color from "../codes/brown.ts";
 
+const _50 = "#EFEBE9";
+const _100 = "#D7CCC8";
+const _200 = "#BCAAA4";
+const _300 = "#A1887F";
+const _400 = "#8D6E63";
+const _500 = "#795548";
+const _600 = "#6D4C41";
+const _700 = "#5D4037";
+const _800 = "#4E342E";
+const _900 = "#3E2723";
 export default {
-  50: color.brown50,
-  100: color.brown100,
-  200: color.brown200,
-  300: color.brown300,
-  400: color.brown400,
-  500: color.brown500,
-  600: color.brown600,
-  700: color.brown700,
-  800: color.brown800,
-  900: color.brown900,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+};

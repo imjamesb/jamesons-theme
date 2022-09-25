@@ -1,19 +1,31 @@
-// Imports
-import * as color from "../codes/blue.ts";
 
+const _50 = "#E3F2FD";
+const _100 = "#BBDEFB";
+const _200 = "#90CAF9";
+const _300 = "#64B5F6";
+const _400 = "#42A5F5";
+const _500 = "#2196F3";
+const _600 = "#1E88E5";
+const _700 = "#1976D2";
+const _800 = "#1565C0";
+const _900 = "#0D47A1";
+const _A100 = "#82B1FF";
+const _A200 = "#448AFF";
+const _A400 = "#2979FF";
+const _A700 = "#2962FF";
 export default {
-  50: color.blue50,
-  100: color.blue100,
-  200: color.blue200,
-  300: color.blue300,
-  400: color.blue400,
-  500: color.blue500,
-  600: color.blue600,
-  700: color.blue700,
-  800: color.blue800,
-  900: color.blue900,
-  A100: color.blueA100,
-  A200: color.blueA200,
-  A400: color.blueA400,
-  A700: color.blueA700,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+  A100: _A100,
+  A200: _A200,
+  A400: _A400,
+  A700: _A700,
+};

@@ -1,0 +1,24 @@
+
+export { default as transparent } from "./colors/transparent.ts";
+export { default as inherit } from "./colors/inherit.ts";
+export { default as amber } from "./colors/amber.ts";
+export { default as blue } from "./colors/blue.ts";
+export { default as blueGray } from "./colors/blueGray.ts";
+export { default as brown } from "./colors/brown.ts";
+export { default as cyan } from "./colors/cyan.ts";
+export { default as dark } from "./colors/dark.ts";
+export { default as deepOrange } from "./colors/deepOrange.ts";
+export { default as deepPurple } from "./colors/deepPurple.ts";
+export { default as gray } from "./colors/gray.ts";
+export { default as green } from "./colors/green.ts";
+export { default as indigo } from "./colors/indigo.ts";
+export { default as light } from "./colors/light.ts";
+export { default as lightBlue } from "./colors/lightBlue.ts";
+export { default as lightGreen } from "./colors/lightGreen.ts";
+export { default as lime } from "./colors/lime.ts";
+export { default as orange } from "./colors/orange.ts";
+export { default as pink } from "./colors/pink.ts";
+export { default as purple } from "./colors/purple.ts";
+export { default as red } from "./colors/red.ts";
+export { default as teal } from "./colors/teal.ts";
+export { default as yellow } from "./colors/yellow.ts";

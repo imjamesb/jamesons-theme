@@ -1,15 +1,23 @@
-// Imports
-import * as color from "../codes/blueGray.ts";
 
+const _50 = "#ECEFF1";
+const _100 = "#CFD8DC";
+const _200 = "#B0BEC5";
+const _300 = "#90A4AE";
+const _400 = "#78909C";
+const _500 = "#607D8B";
+const _600 = "#546E7A";
+const _700 = "#455A64";
+const _800 = "#37474F";
+const _900 = "#263238";
 export default {
-  50: color.blueGray50,
-  100: color.blueGray100,
-  200: color.blueGray200,
-  300: color.blueGray300,
-  400: color.blueGray400,
-  500: color.blueGray500,
-  600: color.blueGray600,
-  700: color.blueGray700,
-  800: color.blueGray800,
-  900: color.blueGray900,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+};

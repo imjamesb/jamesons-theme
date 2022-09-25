@@ -1,19 +1,31 @@
-// Imports
-import * as color from "../codes/orange.ts";
 
+const _50 = "#FFF3E0";
+const _100 = "#FFE0B2";
+const _200 = "#FFCC80";
+const _300 = "#FFB74D";
+const _400 = "#FFA726";
+const _500 = "#FF9800";
+const _600 = "#FB8C00";
+const _700 = "#F57C00";
+const _800 = "#EF6C00";
+const _900 = "#E65100";
+const _A100 = "#FFD180";
+const _A200 = "#FFAB40";
+const _A400 = "#FF9100";
+const _A700 = "#FF6D00";
 export default {
-  50: color.orange50,
-  100: color.orange100,
-  200: color.orange200,
-  300: color.orange300,
-  400: color.orange400,
-  500: color.orange500,
-  600: color.orange600,
-  700: color.orange700,
-  800: color.orange800,
-  900: color.orange900,
-  A100: color.orangeA100,
-  A200: color.orangeA200,
-  A400: color.orangeA400,
-  A700: color.orangeA700,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+  A100: _A100,
+  A200: _A200,
+  A400: _A400,
+  A700: _A700,
+};

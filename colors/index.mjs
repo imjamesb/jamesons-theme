@@ -1,0 +1,24 @@
+
+export { default as transparent } from "./colors/transparent.mjs";
+export { default as inherit } from "./colors/inherit.mjs";
+export { default as amber } from "./colors/amber.mjs";
+export { default as blue } from "./colors/blue.mjs";
+export { default as blueGray } from "./colors/blueGray.mjs";
+export { default as brown } from "./colors/brown.mjs";
+export { default as cyan } from "./colors/cyan.mjs";
+export { default as dark } from "./colors/dark.mjs";
+export { default as deepOrange } from "./colors/deepOrange.mjs";
+export { default as deepPurple } from "./colors/deepPurple.mjs";
+export { default as gray } from "./colors/gray.mjs";
+export { default as green } from "./colors/green.mjs";
+export { default as indigo } from "./colors/indigo.mjs";
+export { default as light } from "./colors/light.mjs";
+export { default as lightBlue } from "./colors/lightBlue.mjs";
+export { default as lightGreen } from "./colors/lightGreen.mjs";
+export { default as lime } from "./colors/lime.mjs";
+export { default as orange } from "./colors/orange.mjs";
+export { default as pink } from "./colors/pink.mjs";
+export { default as purple } from "./colors/purple.mjs";
+export { default as red } from "./colors/red.mjs";
+export { default as teal } from "./colors/teal.mjs";
+export { default as yellow } from "./colors/yellow.mjs";

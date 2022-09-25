@@ -1,19 +1,31 @@
-// Imports
-import * as color from "../codes/pink.ts";
 
+const _50 = "#FCE4EC";
+const _100 = "#F8BBD0";
+const _200 = "#F48FB1";
+const _300 = "#F06292";
+const _400 = "#EC407A";
+const _500 = "#E91E63";
+const _600 = "#D81B60";
+const _700 = "#C2185B";
+const _800 = "#AD1457";
+const _900 = "#880E4F";
+const _A100 = "#FF80AB";
+const _A200 = "#FF4081";
+const _A400 = "#F50057";
+const _A700 = "#C51162";
 export default {
-  50: color.pink50,
-  100: color.pink100,
-  200: color.pink200,
-  300: color.pink300,
-  400: color.pink400,
-  500: color.pink500,
-  600: color.pink600,
-  700: color.pink700,
-  800: color.pink800,
-  900: color.pink900,
-  A100: color.pinkA100,
-  A200: color.pinkA200,
-  A400: color.pinkA400,
-  A700: color.pinkA700,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+  A100: _A100,
+  A200: _A200,
+  A400: _A400,
+  A700: _A700,
+};

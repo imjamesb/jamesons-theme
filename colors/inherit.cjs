@@ -1,0 +1,1 @@
+/** @type {string} */ module.exports = "inherit";

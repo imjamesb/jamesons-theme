@@ -1,19 +1,31 @@
-// Imports
-import * as color from "../codes/green.ts";
 
+const _50 = "#E8F5E9";
+const _100 = "#C8E6C9";
+const _200 = "#A5D6A7";
+const _300 = "#81C784";
+const _400 = "#66BB6A";
+const _500 = "#4CAF50";
+const _600 = "#43A047";
+const _700 = "#388E3C";
+const _800 = "#2E7D32";
+const _900 = "#1B5E20";
+const _A100 = "#B9F6CA";
+const _A200 = "#69F0AE";
+const _A400 = "#00E676";
+const _A700 = "#00C853";
 export default {
-  50: color.green50,
-  100: color.green100,
-  200: color.green200,
-  300: color.green300,
-  400: color.green400,
-  500: color.green500,
-  600: color.green600,
-  700: color.green700,
-  800: color.green800,
-  900: color.green900,
-  A100: color.greenA100,
-  A200: color.greenA200,
-  A400: color.greenA400,
-  A700: color.greenA700,
-} as const;
+  50: _50,
+  100: _100,
+  200: _200,
+  300: _300,
+  400: _400,
+  500: _500,
+  600: _600,
+  700: _700,
+  800: _800,
+  900: _900,
+  A100: _A100,
+  A200: _A200,
+  A400: _A400,
+  A700: _A700,
+};
