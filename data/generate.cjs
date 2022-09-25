@@ -56,7 +56,7 @@ function colorFileTs(color) {
 
 function colorFile(color) {
   return {
-    cjs: colorFileCjs(color),
+    js: colorFileCjs(color),
     mjs: colorFileMjs(color),
     ts: colorFileTs(color),
   };
@@ -65,7 +65,7 @@ function colorFile(color) {
 function colorIndexCjs(names) {
   let data = "";
   for (const name of names) {
-    data += `\nexports.${name} = require("./colors/${name}.cjs");`;
+    data += `\nexports.${name} = require("./colors/${name}.js");`;
   }
   return data;
 }
@@ -88,7 +88,7 @@ function colorIndexTs(names) {
 
 function colorIndexes(names) {
   return {
-    "./colors/index.cjs": colorIndexCjs(names),
+    "./colors/index.js": colorIndexCjs(names),
     "./colors/index.mjs": colorIndexMjs(names),
     "./colors/mod.ts": colorIndexTs(names),
   };
@@ -110,7 +110,7 @@ function colorFiles(colors) {
 }
 
 function mainCjs() {
-  return `const colors = require("./colors/index.cjs");
+  return `const colors = require("./colors/index.js");
 module.exports = {
   colors,
   extend: {
@@ -191,7 +191,7 @@ export default {
 
 function mainFiles() {
   return {
-    "./index.cjs": mainCjs(),
+    "./index.js": mainCjs(),
     "./index.mjs": mainMjs(),
     "./mod.ts": mainTs(),
   };
