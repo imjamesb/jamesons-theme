@@ -1,1 +1,0 @@
-/** @type {string} */ export default "transparent";

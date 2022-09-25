@@ -33,6 +33,10 @@ async function write(file, content) {
   await writeFile(file, content);
 }
 
-await write("./index.mjs", `export default ${JSON.stringify(theme)};`);
-await write("./mod.ts", `export default ${JSON.stringify(theme)} as const;`);
-await write("./index.cjs", `module.exports = ${JSON.stringify(theme)};`);
+async function run() {
+  await write("./index.mjs", `export default ${JSON.stringify(theme)};`);
+  await write("./mod.ts", `export default ${JSON.stringify(theme)} as const;`);
+  await write("./index.cjs", `module.exports = ${JSON.stringify(theme)};`);
+}
+
+run().catch(console.error);
