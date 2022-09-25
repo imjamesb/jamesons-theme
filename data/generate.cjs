@@ -112,7 +112,7 @@ function colorFiles(colors) {
 }
 
 function mainCjs() {
-  return `const colors = require("./colors");
+  return `const colors = require("./colors/index.cjs");
 module.exports = {
   colors,
   extend: {
