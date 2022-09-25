@@ -65,9 +65,7 @@ function colorFile(color) {
 function colorIndexCjs(names) {
   let data = "";
   for (const name of names) {
-    data += `\nexports.${
-      JSON.stringify(name)
-    } = require("./colors/${name}.cjs");`;
+    data += `\nexports.${name} = require("./colors/${name}.cjs");`;
   }
   return data;
 }
